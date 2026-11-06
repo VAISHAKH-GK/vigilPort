@@ -1,0 +1,39 @@
+#+TITLE: VigilPort
+#+AUTHOR: Vaishakh G K
+#+DESCRIPTION: A minimal GUI port scanner build in Go.
+#+STARTUP: overview
+
+* Introduction
+
+VigilPort is a lightweight port scanning tool built with Go, featuring a graphical user interface developed using MyGo.
+
+The project aims to identify open ports on a target host by scanning a specified range of TCP ports. It is intended as a learning project to explore network programming, TCP connections, port scanning techniques, and Go application development.
+
+* Features
+
++ Scan TCP ports on a target host.
++ Specify custom port ranges.
++ Identify open ports.
++ Display scanning results through a graphical interface.
++ Lightweight and simple to use.
+
+* Technology Used
+
++ =Go= – Core scanning engine and backend.
++ =MyGo= – Graphical user interface.
++ =TCP/IP= – Network communication and port scanning.
+
+* License
+[[file:LICENSE][The GPLv3 License (GPLv3)]]
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see [[https://www.gnu.org/licenses/gpl-3.0][GPLv3]].
